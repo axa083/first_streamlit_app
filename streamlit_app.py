@@ -14,6 +14,8 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 my_fruit_list = my_fruit_list.set_index('Fruit')
 
 #add a picklist for selecting fruit
+streamlit.multiselect("Pick some fruits:", list (my fruit list.index), ['Avocado', 'Strawberries
+'1)
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 #add table with fruit options
 streamlit.dataframe(my_fruit_list)
