@@ -1,9 +1,9 @@
 import streamlit
 
 streamlit.title('My Parents New Healthy Diner')
-streamlit.body('Breakfast')
-streamlit.body('MEXICAN OMELETTE (V)')
-streamlit.body('SWEET POTATO ROSTI (V/GF)')
-streamlit.body('SALMON FISH CAKE')
+streamlit.title('Breakfast')
+streamlit.title('MEXICAN OMELETTE (V)')
+streamlit.title('SWEET POTATO ROSTI (V/GF)')
+streamlit.title('SALMON FISH CAKE')
 
 
