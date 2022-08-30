@@ -22,7 +22,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #add table with fruit options
 streamlit.dataframe(fruits_to_show)
 
--- 
 streamlit.header("Fruityvice Fruit Advice!")
 try:
 fruit choice = streamlit.text input ('What fruit would you like information about?')
@@ -34,8 +33,6 @@ fruitvvice normalized = pandas. ison normalize(fruitvvice response. ison())
 streamlit.dataframe(fruitvvice normalized)
 except URLError as e:
 streamlit. error )
---
-
 
 streamlit.stop()
 
